@@ -1,9 +1,11 @@
-.venv/ 
-__pycache__/ 
-*.pyc 
-.buildozer/ 
-bin/ 
-build/ 
-.gradle/ 
-.idea/ 
-*.db 
+# Игнорируем виртуальные окружения (они весят гигабайты)
+.venv/
+venv/
+env/
+
+# Игнорируем кэш Python
+__pycache__/
+*.pyc
+
+# Игнорируем загруженные фото
+backend/uploads/
